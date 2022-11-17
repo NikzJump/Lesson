@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form name="calculator">
+        <h1 class="h1">Депозитный калькулятор</h1>
+        <input autofocus name="money" type="number" required placeholder="Первоначальный депозит">
+              <select name="months" class="select-menu">
+                <option value="3">3 месяца</option>
+                <option value="6">6 месяцев</option>
+                <option value="12" selected>12 (месяцев)</option>
+                <option value="18">18 месяцев</option>
+                <option value="24">24 месяцев</option>
+                <option value="30">30 месяцев</option>
+                <option value="36">36 месяцев</option>
+                <option value="60">60 месяцев</option>
+              </select>
+        <input id="input2" name="interest" type="number" placeholder="Годовая ставка" required>
+        <button id="button" class="button">Посчитать</button>
+        <table id="diagram">
+            <tr>
+              <th class="diag__text">До:</th>
+              <th class="diag__text">После:</th>
+            </tr>
+            <tr>
+              <th id="money-before"></th>
+              <th id="money-after"></th>
+            </tr>
+            <td>
+              <div class="diag1"></div>
+            </td>
+            <td>
+              <div class="diag2" id="height-after"></div>
+            </td>
+          </table>
+    </form>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+<body>
+  <div id="block">
+      <img src="assets/img/._..png" alt="" srcset="">
+  </div>
+  <input type="text" id="input" value="Нажми на меня" onclick="ClickInput">
+  <button id="button">Нажми на меня</button>
+  <button id="button__after">Потом на меня</button>
+  <input type="submit" value="Нажми на меня" id="submit">
+  <button id="btn__submit">Нажми на меня чтобы разблокировать элемент</button>
+  <div class="block__input" id="block__input">
+      <input type="text" value='Ку-Ку' id="inputRight">
+      <button id="btnLeft">Нажми на меня</button>
+  </div>
+  <input type="text" id="input_20" width="25%" class="eee www ddd" value="Ку-Ку">
+  <button id="btn_20">Нажми на меня</button>
+  <input type="text" name="" class="input_21" value="Привет">
+  <input type="text" name="" class="input_21" value="Пока">
+  <button id="btn_21">Нажми на меня</button>
+  <input type="text" name="" class="input_22">
+  <input type="text" name="" class="input_22">
+  <button id="btn_22">Нажми на меня</button>
+  <input type="text" name="" class="input_23" value="gijoersao">
+  <input type="text" name="" class="input_23">
+  <button id="btn_23">Нажми на меня</button>
+  <input type="submit" id="input_24" value="Нажми на меня">
+  <input type="text" class="input_25">
+  <input type="submit" class="input_25" value="Я добавлю +" onclick="add('+')">
+  <input type="submit" class="input_25" value="Я добавлю -" onclick="add('=')">
+  <input type="submit" class="input_25" value="Я добавлю /" onclick="add('/')">
+  <input type="submit" class="input_25" value="Я добавлю *" onclick="add('*')">
+  <input type="submit" class="input_25" value="1" onclick="add(1)">
+  <input type="submit" class="input_25" value="2" onclick="add(2)">
+  <input type="submit" class="input_25" value="3" onclick="add(3)">
+  <input type="submit" class="input_25" value="4" onclick="add(4)">
+  <input type="submit" class="input_25" value="5" onclick="add(5)">
+  <input type="submit" class="input_25" value="6" onclick="add(6)">
+  <input type="submit" class="input_25" value="7" onclick="add(7)">
+  <input type="submit" class="input_25" value="8" onclick="add(8)">
+  <input type="submit" class="input_25" value="9" onclick="add(9)">
+  <input type="submit" class="input_25" value="0" onclick="add(0)">
+
+
+
+  <h2 class="num7">Заголовок с классом www, не поменяется.</h2>
+  <p class="num7">Абзац с классом www.</p>
+  <p class="num7">Абзац с классом www.</p>
+  <p class="num7">Абзац с классом www.</p>
+  <p>Просто абзац, не поменяется.</p>
+
+  <p class="elems_14">Абзац</p>
+  <p class="elems_14">Абзац</p>
+  <p class="elems_14">Абзац</p>
+  <p class="elems_14">Абзац</p>
+  <p class="elems_14">Абзац</p>
+  <p class="elems_14">Абзац</p>
+  <p class="elems_14">Абзац</p>
+  <p class="elems_14">Абзац</p>
+  <button id="btn_14">нажми на меня</button>
+
+  <p class="elems_15">Абзац</p>
+  <p class="elems_15">Абзац</p>
+  <p class="elems_15">Абзац</p>
+  <p class="elems_15">Абзац</p>
+  <p class="elems_15">Абзац</p>
+  <p class="elems_15">Абзац</p>
+  <p class="elems_15">Абзац</p>
+  <p class="elems_15">Абзац</p>
+  <button id="btn_15">нажми на меня</button>
+  
+  <input type="text" name="" id="inputtime1">
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
+<body>
+  <!-- <select id="genres" onfocus="genres()">
+      <option value="rock">Рок</option>
+      <option value="blues">Блюз</option>
+  </select> -->
+
+  <div onclick="editStart()" id="view" class="view">Текст</div>
+  <script>
+
+
+      //     function genres() {
+      //     let genres = document.getElementById('genres')
+      //     let option = document.createElement('option')
+      //     option.innerText = 'Классика'
+      //     option.value = 'classic'
+      //     option.selected = true
+      //     genres.appendChild(option)
+      //     select.option[1].selected = false
+      // }
+
+  let area = null;
+  let view = document.getElementById('view');
+
+  function editStart() {
+    area = document.createElement('textarea');
+    area.className = 'edit';
+    area.value = view.innerHTML;
+
+    area.onkeydown = function(event) {
+      if (event.key == 'Enter') {
+        this.blur();
+      }
+    };
+
+    area.onblur = function() {
+      editEnd();
+    };
+
+    view.replaceWith(area);
+    area.focus();
+  }
+
+  function editEnd() {
+    view.innerHTML = area.value;
+    area.replaceWith(view);
+  }
+</script>
+</body>
+</html>
+<body>
+  <select id="genres">
+      <option value="rock">Рок</option>
+      <option value="blues">Блюз</option>
+  </select>
+
+
+
+
+
+
+  <p>Кликните на ячейку таблицы, чтобы отредактировать её. Нажмите ОК или ОТМЕНА, когда закончите.</p>
+
+  <table id="bagua-table">
+    <tr>
+      <th colspan="3">Квадрат <em>Bagua</em>: Направление, Элемент, Цвет, Значение</th>
+    </tr>
+    <tr>
+      <td class="nw" ><strong>Северо-Запад</strong>
+        <br>Металл
+        <br>Серебро
+        <br>Старейшины
+      </td>
+      <td class="n"><strong>Север</strong>
+        <br>Вода
+        <br>Синий
+        <br>Перемены
+      </td>
+      <td class="ne"><strong>Северо-Восток</strong>
+        <br>Земля
+        <br>Жёлтый
+        <br>Направление
+      </td>
+    </tr>
+    <tr>
+      <td class="w"><strong>Запад</strong>
+        <br>Металл
+        <br>Золото
+        <br>Молодость
+      </td>
+      <td class="c"><strong>Центр</strong>
+        <br>Всё
+        <br>Пурпурный
+        <br>Гармония
+      </td>
+      <td class="e"><strong>Восток</strong>
+        <br>Дерево
+        <br>Синий
+        <br>Будущее
+      </td>
+    </tr>
+    <tr>
+      <td class="sw"><strong>Юго-Запад</strong>
+        <br>Земля
+        <br>Коричневый
+        <br>Спокойствие
+      </td>
+      <td class="s"><strong>Юг</strong>
+        <br>Огонь
+        <br>Оранжевый
+        <br>Слава
+      </td>
+      <td class="se"><strong>Юго-Восток</strong>
+        <br>Дерево
+        <br>Зеленый
+        <br>Роман
+      </td>
+    </tr>
+</table>
+  <script src="assets/js/script.js"></script>
