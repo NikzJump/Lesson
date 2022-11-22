@@ -1,0 +1,13 @@
+.h1{
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-family: 'Inter';
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
